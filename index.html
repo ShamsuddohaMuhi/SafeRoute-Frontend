@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SafeRoute</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>SafeRoute: Smart Highway Rescue Network</h1>
+  </header>
+
+  <main>
+    <div class="sos-buttons-row">
+      <button class="sos-button" data-light="0">SOS</button>
+      <button class="sos-button" data-light="1">SOS</button>
+      <button class="sos-button" data-light="2">SOS</button>
+      <button class="sos-button" data-light="3">SOS</button>
+      <button class="sos-button" data-light="4">SOS</button>
+      <button class="sos-button" data-light="5">SOS</button>
+      <button class="sos-button" data-light="6">SOS</button>
+    </div>
+
+    <div class="lights-row">
+      <div class="light-container">
+        <img class="light-image" src="assets/offwhite.png" id="light-0" />
+        <p class="light-label">Light 01</p>
+      </div>
+      <div class="light-container">
+        <img class="light-image" src="assets/offwhite.png" id="light-1" />
+        <p class="light-label">Light 02</p>
+      </div>
+      <div class="light-container">
+        <img class="light-image" src="assets/offwhite.png" id="light-2" />
+        <p class="light-label">Light 03</p>
+      </div>
+      <div class="light-container">
+        <img class="light-image" src="assets/offwhite.png" id="light-3" />
+        <p class="light-label">Light 04</p>
+      </div>
+      <div class="light-container">
+        <img class="light-image" src="assets/offwhite.png" id="light-4" />
+        <p class="light-label">Light 05</p>
+      </div>
+      <div class="light-container">
+        <img class="light-image" src="assets/offwhite.png" id="light-5" />
+        <p class="light-label">Light 06</p>
+      </div>
+      <div class="light-container">
+        <img class="light-image" src="assets/offwhite.png" id="light-6" />
+        <p class="light-label">Light 07</p>
+      </div>
+    </div>
+
+    <div class="reset-container">
+      <button id="reset-button">Reset</button>
+    </div>
+
+    <div class="what-to-do-panel" id="what-to-do">
+      <h2>What to do?</h2>
+      <div class="indicator-row">
+        <div class="indicator" id="indicator-0"><span>Light 01</span></div>
+        <div class="indicator" id="indicator-1"><span>Light 02</span></div>
+        <div class="indicator" id="indicator-2"><span>Light 03</span></div>
+        <div class="indicator" id="indicator-3"><span>Light 04</span></div>
+        <div class="indicator" id="indicator-4"><span>Light 05</span></div>
+        <div class="indicator" id="indicator-5"><span>Light 06</span></div>
+        <div class="indicator" id="indicator-6"><span>Light 07</span></div>
+      </div>
+      <p class="emergency-text" id="emergency-text">Emergency! Someone needs help beside Light --</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
